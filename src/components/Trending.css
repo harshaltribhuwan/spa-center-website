@@ -1,0 +1,50 @@
+.trending {
+  color: #ffffff;
+  height: 630px;
+  color: #000000;
+  margin: 60px 100px 0px 100px;
+}
+
+.trending > h2 {
+  font-size: 1.9rem;
+}
+
+.trending__container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .trending__container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+  }
+}
+.trending__grow {
+  margin-top: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-image: url(https://images.unsplash.com/photo-1530462567120-3e3d48284bd1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1033&q=80);
+  background-size: cover;
+  object-fit: contain;
+  height: 190px;
+  background-attachment: fixed;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.trending__growText {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.trending__growBtn > button {
+  padding: 10px 40px !important;
+  background-color: #573fe4 !important;
+}

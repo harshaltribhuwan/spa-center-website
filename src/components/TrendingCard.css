@@ -1,0 +1,56 @@
+.trendingCard {
+  width: 260px;
+  height: 320px;
+  /* padding: 1rem; */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  margin: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.trendingCard:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.trendingCard > img {
+  object-fit: contain;
+  /* border-radius: 25px; */
+}
+
+.trendingCard__info {
+  padding: 10px;
+}
+
+.trendingCard__info > h4 {
+  color: #ff7216;
+  font-weight: 400;
+}
+
+.trendingCard__info > p {
+  color: gray;
+}
+
+.trendingCard__rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.trendingCard__rating > p {
+  display: flex;
+  align-items: center;
+}
+
+.trendingCard__rating > p > .MuiSvgIcon-root {
+  color: #ff7216 !important;
+  margin-right: 10px;
+}
+
+.disconunt {
+  color: #573fe4;
+}

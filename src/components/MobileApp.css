@@ -1,0 +1,56 @@
+.mobileApp {
+  height: 90vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mobileApp__img {
+  position: relative;
+}
+
+.first {
+  position: absolute;
+  height: 500px;
+  z-index: 9999;
+  margin-left: 120px;
+}
+
+.second {
+  position: relative;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.mobileApp__Text {
+  padding: 30px;
+}
+
+.mobileApp__Text > h4 {
+  color: gray;
+  margin-top: 30px;
+}
+
+.mobileApp__btn {
+  margin-top: 30px;
+}
+
+.mobileApp__btn > button {
+  background-color: black !important;
+  padding: 15px 30px;
+  margin-right: 20px;
+  border-radius: 5px !important;
+  color: white !important;
+  border: 1px solid black !important;
+}
+
+.mobileApp__btn > button:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+.mobileApp__btn > button > span > {
+  font-size: 95px;
+}

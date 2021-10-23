@@ -1,0 +1,11 @@
+.footerBottom {
+  height: 60px;
+  background-color: #ebebeb;
+  border-top: 1px solid rgba(128, 128, 128, 0.219);
+  padding: 20px;
+  color: black;
+}
+
+.footerBottom > p {
+  margin-left: 170px;
+}

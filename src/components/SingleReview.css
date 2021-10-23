@@ -1,0 +1,33 @@
+.singleReview {
+  height: 200px;
+  width: 350px;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.singleReview:hover {
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.singleReview__user {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.singleReview__user > img {
+  height: 70px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.singleReview__user > h3 {
+  margin-left: 25px;
+  font-size: 1.4rem;
+}
+
+.singleReview > p {
+  margin-top: 20px;
+  color: gray;
+}

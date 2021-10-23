@@ -1,0 +1,21 @@
+.carouselOption {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 170px;
+}
+
+.carouselOption:hover {
+  cursor: pointer;
+}
+
+.carouselOption > h4 {
+  margin-top: 8px;
+}
+
+.carouselOption > .MuiSvgIcon-root {
+  color: white;
+  margin-left: 48px;
+  cursor: pointer;
+}

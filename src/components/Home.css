@@ -1,0 +1,52 @@
+.home {
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  object-fit: contain;
+  height: 470px;
+  color: white;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.home > h1 {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 230px;
+  font-size: 2.7rem;
+}
+
+.home__search {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 450px;
+  padding: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  height: 22px;
+  width: 480px;
+  color: grey;
+  background-color: #ffffff;
+}
+
+.home__search > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.home__search > input {
+  margin-left: 4px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: none;
+}
+
+.home__search > input:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: gray;
+}
+.home__search > input:-moz-placeholder {
+  font-size: 1.3rem;
+  color: gray;
+}
